@@ -1,0 +1,2 @@
+# TheFloorIsJava
+ Plattformus (The floor is Java)  David und ich (Julian) wollen ein Jump-and-Run Spiel mit Hilfe von FXGL erstellen. Man kann sich das Spielprinzip so ähnlich wie die Super Mario Reihe vorstellen. Der Boden der Spielwelt ist tödlich also muss man von Plattform zu Plattform springen um sich seinen Weg ins Ziel zu bahnen. Je nach dem wie schnell wir vorankommen wollen wir auch einen Enterhaken implementieren mit dem man sich fortbewegen kann.
