@@ -15,7 +15,7 @@ Je nach dem wie schnell wir vorankommen wollen wir auch einen Enterhaken impleme
 
 
 ### Erster Sprint:
-1. erste Sprites gefunden ✅
+1. erste Sprites gefunden [Link](https://alfredsheep.itch.io/simple-platformer-tileset-8x8-and-16x16) | ✅
 2. Platformen erstellen 
 3. Spieler Hinzufügen
 4. vielleicht sogar schon Movement hinzufügen 
