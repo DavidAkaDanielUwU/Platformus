@@ -2,8 +2,11 @@ package com.example.demojumpandrun;
 
 import com.almasb.fxgl.app.GameApplication;
 import com.almasb.fxgl.app.GameSettings;
-import com.almasb.fxgl.dsl.FXGL;
 import com.almasb.fxgl.entity.Entity;
+
+import java.util.Map;
+
+
 
 /**
  * Willkommen in der Codewelt von Platformus
@@ -24,13 +27,20 @@ public class App extends GameApplication {
     protected void initSettings(GameSettings settings) {
         settings.setWidth(1280);
         settings.setHeight(720);
+        settings.setVersion("0.01");
         settings.setTitle("Platformu's The Floor ist java");
     }
 
-    protected void intGame(){
-        FXGL.getGameWorld().addEntityFactory(new SimpleFactory());
+    @Override
+    protected void initGameVars(Map<String, Object> vars) {
+        vars.put("level", STARTING_LEVEL);
+        vars.put("levelTime", 0.0);
+        vars.put("score", 0);
+    }
 
-        FXGL.spawn("enemy",100,100);
+    @Override
+    protected void initGame(){
+
     }
 
     public static void main(String[] args) {
