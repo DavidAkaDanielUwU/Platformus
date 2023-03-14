@@ -20,3 +20,12 @@ Je nach dem wie schnell wir vorankommen wollen wir auch einen Enterhaken impleme
 3. Spieler Hinzufügen (David) // nicht geklappt ❌
 4. vielleicht sogar schon Movement hinzufügen // nicht geklappt ❌
 5. Musik und sounds finden oder generieren // nicht geklappt ❌
+
+### Zweiter Sprint:
+David:
+1. DemoFx Wer gewinnt
+2. 
+
+Julian:
+1. DemoFx Wer gewinnt
+2. 
